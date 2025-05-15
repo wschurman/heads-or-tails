@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["CoinFlipModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.coinflip.CoinFlipModule"]
+  }
+}

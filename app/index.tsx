@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Button, StyleSheet, Text, View } from 'react-native';
+import CoinFlip from '../modules/coin-flip';
 
 export default function Index() {
   const [currentHeadsOrTails, setCurrentHeadsOrTails] = useState('');
@@ -9,7 +10,7 @@ export default function Index() {
       <Button
         title="Flip Coin"
         onPress={() => {
-          const result = Math.random() < 0.5 ? 'Heads' : 'Tails';
+          const result = CoinFlip.flipCoin();
           setCurrentHeadsOrTails(result);
         }}
       />

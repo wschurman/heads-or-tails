@@ -9,7 +9,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wschurman.headsortails"
     },
     "android": {
       "adaptiveIcon": {
@@ -46,9 +47,7 @@
       }
     },
     "owner": "wschurman",
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
+    "runtimeVersion": "1.0.0",
     "updates": {
       "url": "https://u.expo.dev/abe73ec0-d724-4978-9cb4-4076b3cb3e2e"
     }
